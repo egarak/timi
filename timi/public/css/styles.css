@@ -1,0 +1,321 @@
+/* Defaults > */
+@font-face {
+    font-family: "KronaOne-Regular";
+  
+    src: url("../fonts/KronaOne-Regular.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/KronaOne-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "OpenSans-Regular";
+  
+    src: url("../fonts/OpenSans-Regular1.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/OpenSans-Regular1.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+html{
+    font-family: 'KronaOne-Regular', 
+
+}
+body{
+    font-family: 'KronaOne-Regular';
+    line-height: 1;
+    margin: 0;
+}
+
+#main-image {
+    width: 100%;
+    transition: opacity 1s;
+}
+#main-image:hover {
+    opacity: 0.5;
+ 
+}
+
+#csoportkep{
+    width: 100%;
+    transition: opacity 1s;
+}
+#csoportkep:hover{
+    opacity:0.5;
+}
+#termekkep{
+    width: 100%
+
+}
+
+
+.nopadding{
+    padding: 0px;
+}
+
+.ucol{
+    line-height: 1.5rem;
+    color: #929292;
+    height: 10rem;
+    align-content: center;
+    justify-content: center;
+;
+}
+.hei{
+    height:10rem;
+}
+
+/* change the background color */
+.navbar-custom {
+    background-color: white;
+}
+/* change the brand and text color 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}*/
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(35, 7, 7, 0.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link{
+    color:black;
+}
+.navbar-custom .nav-item:focus .nav-link{
+    color:#929292;
+   
+}
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(132, 240, 145);
+    text-decoration: underline;
+}
+
+.navbar-custom .dropdown-item{
+    color: rgba(35, 7, 7, 0.5);
+    padding: 8px;
+
+}
+
+.szurke{
+    background-color:#f5f5f5;
+
+}
+
+.udv{
+    background-color: #f5f5f5;
+    height: 10rem;
+    text-align: center;
+    font-size: 35px;
+    
+    align-content: center;
+    justify-content: center;
+    color: #333;
+    
+}
+
+.udv2{
+    background-color: #f5f5f5;
+    height: 10rem;
+    text-align: left;
+    font-size: 35px;
+    
+    align-content: center;
+    justify-content: center;
+    color: #333;
+    
+}
+
+.also{
+    height: 10rem;
+    font-size: 20px;
+}
+
+.margs{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.uzenet {
+    /*height: 4rem;*/
+    line-height: 1.5rem;
+    color: #929292;
+}   
+
+
+.kerd {
+    font-family: KronaOne-Regular;
+    padding: 0px;
+    font-size: 25px;
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+
+.valasz {
+font-family: OpenSans-Regular;   
+margin-bottom: 60px;   
+font-size: 20px;
+}
+li {
+    font-size: 20px;
+    font-family: OpenSans-Regular; 
+}
+p.card-text{
+    color: #929292;
+    text-align: center;
+    font-family: OpenSans-Regular;
+    margin: 3px;  
+}
+
+.card-body{
+    margin-bottom: 30px;
+}
+p.card-title{
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: OpenSans-Regular;
+}
+
+
+h3.card-title{
+    margin-top: 0px;
+    font-family: KronaOne-Regular;
+    font-size: 1.1rem;
+}
+
+/* ------------login-----------*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+   /* width: 100%;
+    padding: 10px 18px; */
+    background-color: #f44336;
+  }
+  
+  .conti {
+    padding: 16px;
+    align-content: center;
+  }
+  
+  span.psw {
+    float: left;
+    padding-top: 16px;
+  }
+
+  span.reg {
+    float: right;
+    padding-top: 0;
+  }
+
+
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  #id02{
+      /*position: absolute;
+      top: 10%;
+      left: 30%;*/
+    /*  margin-top: -50px;
+      margin-left: -50px; 
+      width: 500px;
+      height: 700px;*/
+      
+  }
+  
+
+  #id04{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+ /*   margin-top: -50px;
+    margin-left: -50px; */
+    width: 500px;
+    height: 700px;
+    
+}
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+  }
